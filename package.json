@@ -1,5 +1,5 @@
 {
-  "name": "sweater:finch",
+  "name": "sweater-finchjs",
   "version": "0.5.14",
   "main": "finch.js",
   "engines": {
