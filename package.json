@@ -1,6 +1,7 @@
 {
-  "name": "finch",
+  "name": "sweater:finch",
   "version": "0.5.14",
+  "main": "finch.js",
   "engines": {
     "node": ">= 0.10.10"
   },

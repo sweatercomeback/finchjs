@@ -777,6 +777,9 @@
   };
 
   Finch = {
+    getCurrentHash: function() {
+      return CurrentHash;
+    },
     route: function(pattern, settings) {
       var cb, parsedRouteString;
       if (isFunction(settings)) {
@@ -1033,6 +1036,6 @@
     }
   };
 
-  this.Finch = Finch;
+  module.exports = Finch;
 
 }).call(this);

@@ -1103,5 +1103,5 @@ Finch = {
 	#END Finch.options()
 }
 
-#Expose Finch to the window
-@Finch = Finch
+#Export module
+module.exports = Finch
